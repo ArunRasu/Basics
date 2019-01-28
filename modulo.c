@@ -14,5 +14,5 @@ int main()
 	value = (amount % 10000);
 	printf("num [%lf], amount [%d], value 1[%d]\n", num, amount, value);
 
-	return 0;
+	return 1;
 }
