@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include<string.h>
 
-int main() {
-   char str[100], dest;
+int main() 
+{
+   char str[10], dest;
    int i, j = 0;
 
-   printf("\nEnter the string :");
-   fgets(str, 100, stdin);
+   printf("Enter the string :");
+   fgets(str, 10, stdin);
 
    i = 0;
    j = strlen(str) - 1;
@@ -19,6 +20,6 @@ int main() {
       j--;
    }
 
-   printf("\nReverse string is :%s", str);
-   return (0);
+   printf("Reverse string is :%s", str);
+   return 0;
 }
